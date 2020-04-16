@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <style>
+    body {
+   
+        /*Change page background color*/
+        }
+        
+        nav ul {
+        list-style: none;
+        /* remove bullets */
+        }
+        
+        nav a {
+        text-decoration: none;
+        /* remove underline */
+        color: #fff;
+        /* change color */
+        padding: 15px 20px;
+        background-color: #888;
+        font: 12px/18px sans-serif bold;
+        }
+        
+        nav ul li {
+        display: inline-block;
+        /* display in one line */
+        position: relative;
+			color: #fff;
+        }
+        nav a:hover {
+        background-color: #000;
+        }
+        nav ul li ul {
+        /* display: none; DON'T DO THIS!! NOT ACCESIBLE */
+        left: -999999px;
+        /* Place submenu off screen */
+        position: absolute;
+        /* position absolutely underneath menu items */
+        top: 2.6em;
+        padding: 0;
+        width: 200%;
+        }
+        nav ul li ul a {
+        background-color: #000;
+        width: 10em; /* change submenu*/
+        display: block; /* display as block*/
+        }
+        nav li:hover ul {
+        left: 0px;
+        /* Bring back sub-menu on screen */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demi's Resume</title>
+
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Illustrations</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blogs</a>
+                
+            </li>
+            <li><a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="phone.html">Phone</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Social Media</a></li>
+                </ul>
+            </li>
+    </nav>
+</body>
+<main>
+    <!-- ***********************  ABOUT / PROFILE  *********************** -->
+    <header>
+        <link href="css/styles1.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lacquer|Tomorrow&display=swap=font-effect-anaglyph"
+            rel="stylesheet">
+        <h1>Demetra Karvelas</h1>
+        <h2>Graphic Designer</h2>
+
+        <p>I am currently attending Wake Technical Community College to get an associates in graphic design. I am
+            certified in Adobe Photoshop, Adobe Illustrator, and Adobe InDesign.</p>
+
+    </header>
+
+    <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+    <section>
+        <h2>Featured Projects</h2>
+        <p>View selected projects below. More information can be found at <a
+                href="http://wcet3.waketech.edu/dekarvelas/WEB210/week4/Lesson4Start/demi%20website%206.html">demi
+                website</a>.
+        </p>
+
+        <!-- Copy the whole <section> block to add more projects. -->
+        <!--<section>
+                <h3>Project Name</h3>
+                <img src="project-thumbnail.png" alt="description of image">
+                <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                <a href="#" target="_blank">View project / case study</a>
+            </section>-->
+        <!-- End of Project block. -->
+    </section>
+
+    <!-- ***********************  WORK EXPERIENCE  *********************** -->
+    <section>
+        <!-- <h2>Work Experience</h2>
+            <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.
+            </p>-->
+
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section>
+            <h3>Designer</h3>
+            <p>
+                <N>
+                    <A></A>
+            </p>
+            <p>0/0/00</p>
+            <p>This job requires experience in Graphic design and be up to date with computer software.</p>
+            <!-- <p>Optional list:</p>
+                <ul>
+                    <li>Delete this list if you don't need it.</li>
+                    <li>Created...</li>
+                    <li>Lead...</li>
+                    <li>Responsible for...</li>
+                </ul> -->
+        </section>
+        <!-- End of Job block. -->
+    </section>
+
+    <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+    <section>
+        <h2>Education</h2>
+
+        <!-- Copy this whole <section> block to add more schools. -->
+        <section>
+            <h3>Green Hope High School - Cary</h3>
+            <p>High school, 2014-2018</p>
+            <p>GED.</p>
+        </section>
+        <!-- End of School block. -->
+    </section>
+    <img src="images/selfie.jpg"  sizes="90vw" srcset="images/selfie.jpg 450w, images/selfie_450.jpg 450w
+    images/selfie_750.jpg 7500w
+    images/selfie_1000.jpg 1000w" alt="self portrait">
+
+    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+    <footer>
+     <img src="images/picture.jpg">
+        <h2>Let's Keep in Touch!</h2>
+
+    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+    <footer>
+        <h2>Let's Keep in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <ul>
+            <li><a href="mailto:dekarvelas@gmail.com">dekarvelas@gmail.com</a></li>
+            <li><a href="http://wcet3.waketech.edu/dekarvelas/WEB210/week4/Lesson4Start/demi%20website%206.html"
+                    target="_blank">demi website</a></li>
+            <li><a href="https://www.linkedin.com/in/demetra-karvelas-10a563187/" target="_blank">LinkedIn</a></li>
+
+        </ul>
+    </footer>
+</main>
+</body>
+
+</html>
